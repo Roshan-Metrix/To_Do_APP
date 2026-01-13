@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const TodosScreen = () => {
+const SettingScreen = () => {
   return (
     <View>
-      <Text>TodosScreen</Text>
+      <Text>SettingScreen</Text>
     </View>
   )
 }
 
-export default TodosScreen
+export default SettingScreen
