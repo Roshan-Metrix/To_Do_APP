@@ -1,19 +1,38 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
-import useTheme from '@/hooks/useTheme'
+import useTheme, { ColorScheme } from '@/hooks/useTheme'
+import { useQuery } from 'convex/react';
 
-const TodosScreen = () => {
+export default function Index() {
 
- const { toggleDarkMode } = useTheme();
+ const { toggleDarkMode,colors } = useTheme();
+
+const styles = createStyles(colors);
 
   return (
-    <View style={{flex:1,justifyContent:"center",alignItems:"center",gap:4}}>
-      <Text>TodosScreen</Text>
+    <View style={styles.container}>
+      <Text style={styles.content}>TodosScreen</Text>
       <TouchableOpacity onPress={toggleDarkMode}>
         <Text style={{fontSize:34}}>Toggle The Mode</Text>
       </TouchableOpacity>
     </View>
   )
+};
+
+const createStyles = (colors:ColorScheme) => {
+  const styles = StyleSheets.create({
+    container:{
+      flex:1,
+      justifyContent:"center",
+      alignItems:"center",
+      gap: 10,
+      backgroundColor: colors.gb
+    },
+    content:{
+      fontSize:22,
+    },
+  });
+  return styles;
 }
 
-export default TodosScreen
+// 1:18
