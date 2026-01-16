@@ -8,7 +8,7 @@
   <img src="./screenshots/5.jpeg" width="150" />
 </div>
 
-Welcome to the **React Native To‑Do App Tutorial**!  
+Welcome to the **React Native To‑Do App**!  
 This is a fully functional **real‑time to‑do application** that runs on **iOS, Android, and the web**—all with **React Native + Expo**, and **Convex**.
 
 ---
