@@ -10,8 +10,8 @@ export const createSettingsStyles = (colors: ColorScheme) => {
       flex: 1,
     },
     header: {
-      paddingHorizontal: 24,
-      paddingVertical: 32,
+      paddingHorizontal: 20,
+      paddingVertical: 30,
       paddingBottom: 24,
     },
     titleContainer: {
@@ -27,9 +27,9 @@ export const createSettingsStyles = (colors: ColorScheme) => {
       marginRight: 16,
     },
     title: {
-      fontSize: 32,
+      fontSize: 26,
       fontWeight: "700",
-      letterSpacing: -1,
+      letterSpacing: 1,
       color: colors.text,
     },
     scrollView: {
