@@ -9,11 +9,11 @@
 </div>
 
 Welcome to the **React Native To‑Do App Tutorial**!  
-In this one‑stop tutorial you’ll build a fully functional **real‑time to‑do application** that runs on **iOS, Android, and the web**—all with **React Native + Expo**, and **Convex**.
+This is a fully functional **real‑time to‑do application** that runs on **iOS, Android, and the web**—all with **React Native + Expo**, and **Convex**.
 
 ---
 
-## 🎯 What You'll Build
+## 🎯 What actual it is !
 
 This isn’t just a UI prototype—this is a **real, full‑stack, real‑time to‑do app**.
 
@@ -48,7 +48,7 @@ This isn’t just a UI prototype—this is a **real, full‑stack, real‑time t
 
 ---
 
-## 🧠 What You’ll Learn
+## 🧠 Feature
 
 - 🏗️ Build a mobile app using **React Native + Expo**
 - 🧭 Use both **tab** and **stack** navigation (React Navigation)
