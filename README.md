@@ -60,6 +60,21 @@ This isn’t just a UI prototype—this is a **real, full‑stack, real‑time t
 
 ---
 
+## Clone the Repo
+```bash
+git clone https://github.com/Roshan-Metrix/To_Do_APP
+```
+
+## Create Convex Project
+
+- Go to [Convex](https://convex.dev/) and create a free account.
+- Create a new project and select the **"Start from Scratch"** option.
+- After the project is created, you will be redirected to the Convex dashboard.
+- Install the Convex CLI by running the following command:
+```bash
+npm install -g convex
+```
+
 ## 📁 .env Setup
 
 Create a `.env` file in the project root:
@@ -76,7 +91,7 @@ npm install
 npx expo
 ```
 
-## Run the Convex db
+## Run the Convex db 
 
 - Open a seperate terminal and run;
 
