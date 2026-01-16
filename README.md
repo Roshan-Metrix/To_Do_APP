@@ -20,7 +20,6 @@ This isn’t just a UI prototype—this is a **real, full‑stack, real‑time t
 ✅ Works on **physical devices & simulators** (Android / iOS)  
 ✅ Everything updates **instantly** across users (create, complete, delete)  
 ✅ No native Swift / Kotlin required—just JavaScript & React Native  
-✅ From ZERO → to HERO in **one video**
 
 ---
 
