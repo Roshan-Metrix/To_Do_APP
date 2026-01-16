@@ -1,6 +1,12 @@
-<h1 align="center">React Native for Babies 👶</h1>
+<h1 align="center">Todo Expo App</h1>
 
-![Demo App](/assets/images/screenshot-for-readme.png)
+<div align="center">
+  <img src="./screenshots/1.jpeg" width="150" />
+  <img src="./screenshots/2.jpeg" width="150" />
+  <img src="./screenshots/3.jpeg" width="150" />
+  <img src="./screenshots/4.jpeg" width="150" />
+  <img src="./screenshots/5.jpeg" width="150" />
+</div>
 
 Welcome to the **React Native To‑Do App Tutorial**!  
 In this one‑stop tutorial you’ll build a fully functional **real‑time to‑do application** that runs on **iOS, Android, and the web**—all with **React Native + Expo**, and **Convex**.
